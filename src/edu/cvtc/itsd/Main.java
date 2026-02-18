@@ -54,6 +54,7 @@ public class Main {
         throws BadLocationException
     {
       if (fb.getDocument() != null) {
+        stringToAdd = stringToAdd.replaceAll("\\D", "");
         super.replace(fb, offset, lengthToDelete, stringToAdd, attr);
       }
       else {
