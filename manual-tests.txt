@@ -61,4 +61,8 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 ## Expected results
 * Should display "Developer" for the user name.
 
-
+# Module 4: Ticket 401
+1. Build and run CiCo.
+2. Enter ABcd.!@}] into the field
+## Expected Result
+* Should not ignore any non-numerical input
