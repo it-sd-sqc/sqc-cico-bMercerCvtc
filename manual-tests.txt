@@ -63,7 +63,7 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 
 # Module 4: Test for Ticket 401
 1. Build and run Cico.
-2. Enter ABc4^$@!}\ into the field
+2. Enter .ABc4^$@!}\. into the field
 3. Enter [whitespace] into the field
 ## Expected results
 * The field should not accept any non numeric input
