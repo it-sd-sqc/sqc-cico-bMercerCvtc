@@ -67,3 +67,11 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 3. Enter [whitespace] into the field
 ## Expected results
 * The field should not accept any non numeric input
+
+# Module 5: Test for Ticket 501
+1. Build and run Cico
+2. Enter 00000000 into the field and click Update.
+## Expected results
+* There should be a button that immediately takes the user to the "Scan Card" screen instead of having to wait.
+
+
